@@ -1,3 +1,5 @@
-This repo is generated from __[markdown-it](https://github.com/markdown-it/markdown-it)__ by script.
+# Live (GitHub-Flavored) Markdown Editor
 
-Please, use __[markdown-it](https://github.com/markdown-it)__ for all questions & PRs.
+[Use it here](//jbt.github.io/markdown-editor)
+
+Feel free to take the code and copy it and modify it and use it however you like. (If you really want a licence, see [WTFPL](http://www.wtfpl.net/txt/copying/))
