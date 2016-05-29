@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "[Java] Method Dynamic Selection"
+date:   2016-05-29 12:46:55 -0400
+categories: jekyll update
+---
+
 Here is a interesting java overloading and overriding problem from [stackoverflow](http://stackoverflow.com/questions/14676395/java-overloading-method-selection/14676432#14676432). It has a great help for me to understand the complile-time type and run-time type, and how java select methods dynamicly.
 
 ```java
