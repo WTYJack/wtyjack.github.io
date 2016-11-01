@@ -1,20 +1,29 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: WTYJack Blog
-email: wtyjack@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-    A playground blog built at Hicks in 2016 summer for whatever reason. 
-    Thanks to Github.io and Jekyll! 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: wtyjack
-github_username:  wtyjack
+title: Tianye Wang
+url: 'http://wtyjack.github.io'
+baseurl: '/online-cv' #change it according to your repository name
 
-# Build settings
-markdown: kramdown
+
+# Enable one of these styles by removing #
+#style: styles-2
+#style: styles-3
+#style: styles-4
+#style: styles-5
+#style: styles-6
+
+
+
+
+#Profile information
+name: Tianye Wang
+tagline: Software Developer
+pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+#sidebar links
+email: wang2074@purdue.edu
+phone: 312 972 6708
+website: wtyjack.github.io #do not add http://
+linkedin: tianye-wang-159164a4
+github: wtyjack
+twitter: '@wtyjack'
+
