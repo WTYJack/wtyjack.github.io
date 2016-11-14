@@ -11,22 +11,29 @@
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
                    
-                   {% if site.email %}
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
+                    {% if site.email1 %}
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:{{site.email_1}}">{{site.email_1}} (presonal)</a></li>
                     {% else %}
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">alan.doe@website.com</a></li>
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:wtyjack@gmail.com">wtyjack@gmail.com</a></li>
                     {% endif %}
+
+                    {% if site.email2 %}
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:{{site.email_2}}">{{site.email_2}}</a></li>
+                    {% else %}
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:wang2074@purdue.edu">wang2074@purdue.edu</a></li>
+                    {% endif %}
+
                     
                     {% if site.phone %}
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
                     {% else %}
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:012 345 6789">012 345 6789</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:312-972-6708">312-972-6708</a></li>
                     {% endif %}
                     
                     {% if site.website %}
                     <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
                     {% else %}
-                    <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="http://wtyjack.github.io" target="_blank">wtyjack.github.io</a></li>
                     {% endif %}
                     
                     {% if site.linkedin %}
