@@ -26,7 +26,24 @@ Thread:
 Both processes and threads are independent sequences of execution. The typical difference is that threads (of the same process) run in a shared memory space, while processes run in separate memory spaces.
 
 - 进程地址空间
-low () () () () ()high
+
+general C program model [here](http://www.geeksforgeeks.org/memory-layout-of-c-program/)
+
+```
+-------------------------- high address
+Kernel Space
+--------------------------
+Stack (grows down)
+--------------------------
+Heap (grows up)
+--------------------------
+BSS segment
+--------------------------
+Data segment 
+-------------------------- 
+Text segment (ELF)
+-------------------------- low address
+```
 
 - Deadlock
 
