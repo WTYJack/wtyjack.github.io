@@ -9,8 +9,23 @@ categories: Interview
 ## Programming Language
 
 - Java 8 特性
-- static和final，
+  - Interface changes with default and static methods  - Functional interfaces and Lambda Expressions  - Java Stream API for collection classes  - Java Date Time API
+
+- static和final
+   
+   ```java
+   class Example {
+       public static final int CONSTANT = 123;
+       
+   }
+   ```
+
+- final vs finally vs finalize
+   
 - garbage collection
+  clear explanation []
+
+
 - 什么是reference
 - nums==null 和 nums.length==0 有什么区别
 - 什么是继承
@@ -23,29 +38,33 @@ categories: Interview
 - 进程和线程有什么区别
    
    Process: 
+   
    Thread: 
 
    Both processes and threads are independent sequences of execution. The typical difference is that threads (of the same process) run in a shared memory space, while processes run in separate memory spaces.
 
+- User Thread vs. Kernel Thread
+
 - 进程地址空间
 
    general C program model [here](http://www.geeksforgeeks.org/memory-layout-of-c-program/)
+   
    more detailed.[here](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
 
    ```
--------------------------- high address
-Kernel Space
---------------------------
-Stack (grows down)
---------------------------
-Heap (grows up)
---------------------------
-BSS segment
---------------------------
-Data segment 
--------------------------- 
-Text segment (ELF)
--------------------------- low address
+   -------------------------- high address
+   Kernel Space
+   --------------------------
+   Stack (grows down)
+   --------------------------
+   Heap (grows up)
+   --------------------------
+   BSS segment
+   --------------------------
+   Data segment 
+   -------------------------- 
+   Text segment (ELF)
+   -------------------------- low address
    ```
 
 - Deadlock
