@@ -5,7 +5,8 @@ date:   2016-11-16 01:14:55 -0500
 categories: Interview
 ---
 
-##Programming Language
+
+## Programming Language
 
 - Java 8 特性
 - static和final，
@@ -17,7 +18,7 @@ categories: Interview
 - 什么是单例Singleton
 - 什么是工厂模式 Factory
 
-##Operating System
+## Operating System
 
 - 进程和线程有什么区别
 Process: 
@@ -39,7 +40,7 @@ low () () () () ()high
 - Object Oriented Design
 
 
-##Network
+## Network
 
 - 什么是Socket
 A socket is one endpoint of a two-way communication link between two programs running on the network. A socket is bound to a port number so that the TCP layer can identify the application that data is destined to be sent to.
@@ -66,7 +67,7 @@ A socket is one endpoint of a two-way communication link between two programs ru
 
 
 
-##Database
+## Database
 
 MySQL：设计场景，问foreign key、inner join /outer join
 多对多的关系怎么设计（比如好友关系）
