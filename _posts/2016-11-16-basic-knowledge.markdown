@@ -13,11 +13,10 @@ categories: Interview
 
 - static和final
    
-   ```java
+   ```
       class Example {
           public static final int CONSTANT = 123;   
       }
-   
    ```
 
 - final vs finally vs finalize

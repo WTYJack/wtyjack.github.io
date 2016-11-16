@@ -28,3 +28,5 @@ linkedin: tianye-wang-159164a4
 github: wtyjack
 twitter: '@wtyjack'
 
+# Build settings
+markdown: kramdown
