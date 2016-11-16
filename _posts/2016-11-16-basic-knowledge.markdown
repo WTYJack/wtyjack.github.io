@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "[Technical Interview] Basic Knowledge"
+date:   2016-11-16 01:14:55 -0500
+categories: Interview
+---
+
 ##Programming Language
 
 - Java 8 特性
