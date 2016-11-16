@@ -21,15 +21,18 @@ categories: Interview
 ## Operating System
 
 - 进程和线程有什么区别
-Process: 
-Thread: 
-Both processes and threads are independent sequences of execution. The typical difference is that threads (of the same process) run in a shared memory space, while processes run in separate memory spaces.
+   
+   Process: 
+   Thread: 
+
+   Both processes and threads are independent sequences of execution. The typical difference is that threads (of the same process) run in a shared memory space, while processes run in separate memory spaces.
 
 - 进程地址空间
 
-general C program model [here](http://www.geeksforgeeks.org/memory-layout-of-c-program/)
+   general C program model [here](http://www.geeksforgeeks.org/memory-layout-of-c-program/)
+   more detailed.[here](http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/)
 
-```
+   ```
 -------------------------- high address
 Kernel Space
 --------------------------
@@ -43,7 +46,7 @@ Data segment
 -------------------------- 
 Text segment (ELF)
 -------------------------- low address
-```
+   ```
 
 - Deadlock
 
